@@ -15,7 +15,7 @@ namespace Tyuiu.IvanovSI.Sprint4.Review.V5.Lib
             {
                 for (int j = 0; j < m; j++)
                 {
-                    mtrx[i, j] = int.Parse(value.Substring(i * m + j, 1));
+                    mtrx[i, j] = int.Parse(value.Substring(i * m + j, 1)); 
                 }
             }
             int c = 0;

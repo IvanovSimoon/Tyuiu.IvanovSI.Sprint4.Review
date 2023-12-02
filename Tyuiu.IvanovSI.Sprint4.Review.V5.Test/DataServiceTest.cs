@@ -14,7 +14,7 @@ namespace Tyuiu.IvanovSI.Sprint4.Review.V5.Test
             int[,] mtrx = new int[rows, colums];
             string str = "246813579";
             DataService ds = new DataService();
-            int res = ds.Calculate(rows, colums, str);
+            int res = ds.Calculate(rows, colums, str); 
             int wait = 4;
             Assert.AreEqual(wait, res);
         }

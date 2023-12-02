@@ -38,7 +38,7 @@ namespace Tyuiu.IvanovSI.Sprint4.Review.V5
                 {
                     Console.Write(string.Format("{0,5}", mtrx[i, j] = int.Parse(str.Substring(i * colums + j, 1))));
                 }
-                Console.WriteLine();
+                Console.WriteLine(); 
             }
             Console.WriteLine();
             Console.WriteLine("****************************************************************************");
